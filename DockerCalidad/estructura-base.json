@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Documentos Calidad",
+    "children": [
+      {
+        "name": "Proyecto Funcional",
+        "children": [
+          { "name": "Reglamento_regimen_interior --pf-05", "children": [] },
+          { "name": "Proyecto-funcional --pf-00", "children": [] },
+          { "name": "Politica-de-calidad-efqm", "children": [] },
+          { "name": "Plan_orientacion --pf-02", "children": [] },
+          { "name": "Plan_de_convivencia --pf-04", "children": [] },
+          { "name": "Plan-comunicación --pf-08", "children": [] }
+        ]
+      },
+
+      {
+        "name": "Procesos",
+        "children": [
+          { "name": "Prestación de Servicios Auxiliares --Prs-3-2", "children": [] },
+          { "name": "Política y Calidad - Seguimiento --Prs-1-1.2", "children": [] },
+          { "name": "Política y Calidad - Objetivos --Prs-1-1.1", "children": [] },
+          { "name": "Planificación de la FP del Sistema Educativo --Prs-1-2.1", "children": [] },
+          { "name": "Planificación de la FORMACIÓN PARA EL EMPLEO --Prs-1-2.2", "children": [] },
+          { "name": "Organización del centro --Prs-1-4", "children": [] },
+          { "name": "Mapa de Procesos --Prs-0-0", "children": [] },
+          { "name": "Innovación y transferencia del conocimiento --Prs-2-2", "children": [] },
+          { "name": "Información, Orientación Profesional y Empleo --Prs-1-5", "children": [] },
+          { "name": "Gestión de los Recursos Humanos --Prs-1-3", "children": [] },
+          { "name": "Gestión Económica- --Prs-3.1", "children": [] },
+          { "name": "Evaluación y Acreditación de Competencias --Prs-2-3", "children": [] },
+          { "name": "Enseñanza FP sistema educativo --Prs-2-1.1", "children": [] },
+          { "name": "Enseñanza FP para el empleo --Prs-2-1.2", "children": [] }
+        ]
+      },
+
+      {
+        "name": "Procedimientos e Instrucciones",
+        "children": [
+          { "name": "solicitud_baja-instrucciones", "children": [] },
+          { "name": "Tutorización del módulo de FCT- - Guía de Tareas --I-7.2-c-08", "children": [] },
+          { "name": "Sinopsis sobre la memoria del departamento --I-8-2-d-01", "children": [] },
+          { "name": "Sinopsis sobre estructura y contenidos del proyecto curricular de ciclo y las programaciones de los módulos --I-7-3-a-01", "children": [] },
+          { "name": "Sinopsis sobre acceso y utilización del Anexo de Memoria --I-8-2-d-02", "children": [] },
+          { "name": "SIGAD: Gestión de las faltas de los alumnos --I-7-2-c-04", "children": [] },
+          { "name": "Revisión del sistema: riesgos-oportunidades, contexto y partes interesadas --I-5-1-a-01", "children": [] },
+          { "name": "Resumen protocolo actuación idea suicida --I-7-2-c-13", "children": [] },
+          { "name": "Resumen protocolo actuación acoso escolar --I-7-2-c-14", "children": [] },
+          { "name": "REUNION-FAMILIAS", "children": [] },
+          { "name": "Protocolo de mantenimiento de talleres- ELE --I-6.3-B-04-1", "children": [] },
+          { "name": "Protocolo de mantenimiento de talleres AUTO --I-6-3-B-05-1", "children": [] },
+          { "name": "Protocolo de mantenimiento de ordenadores- IFC --I-6.3-A-02", "children": [] },
+          { "name": "Protocolo de mantenimiento de ordenadores- ELE --I-6.3-A-03-1", "children": [] },
+          { "name": "Protocolo de mantenimiento de ordenadores- ELE --I-6.3-A-03", "children": [] },
+          { "name": "Protocolo de mantenimiento de ordenadores- ADG --I-6.3-A-01", "children": [] },
+          { "name": "Protocolo de mantenimiento de ordenadores --alumnado AUTO (I-6-3-A-04-1)", "children": [] },
+          { "name": "Protocolo de mantenimiento de ordenadores --I-6-3-A-04-1", "children": [] },
+          { "name": "Protocolo de mantenimiento de aulas-talleres- AUTO --I-6.3-B-05", "children": [] },
+          { "name": "Protocolo de mantenimiento de aulas- SAN --I-6.3-B-03-1", "children": [] },
+          { "name": "Protocolo de mantenimiento de aulas- SAN --I-6.3-B-03", "children": [] },
+          { "name": "Protocolo de mantenimiento de aulas- IFC --I-6.3-B-02", "children": [] },
+          { "name": "Protocolo de mantenimiento de aulas- ELE --I-6.3-B-04", "children": [] },
+          { "name": "Protocolo de mantenimiento de aulas- ADG --I-6.3-B-01", "children": [] },
+          { "name": "Protocolo de atención sanitaria al alumnado --I-7-5-g-02", "children": [] },
+          { "name": "Procedimiento de evaluación y acreditación de competencias --P-7-2-d", "children": [] },
+          { "name": "Procedimiento de Guardias --P-7-5-a", "children": [] },
+          { "name": "Primera reunión tutorial con las familias --I-7-2-c-01", "children": [] },
+          { "name": "Planificación y seguimiento de objetivos --P-5-4-a", "children": [] },
+          { "name": "Plan de emergencia y evacuación-anexoprofesorado --P-7-5-g-anexoprofesorado", "children": [] },
+          { "name": "Plan de emergencia y evacuación --P-7-5-g", "children": [] },
+          { "name": "Permisos-licencias--Causas-justificacion-y-observaciones", "children": [] },
+          { "name": "Permisos y licencias --P-6-2-a", "children": [] },
+          { "name": "Pasos a seguir por el tutor de FCT en relación con el programa Erasmus --I-7-5-h-02", "children": [] },
+          { "name": "Pasos a seguir por el responsable Erasmus en relación con alumnos y tutores de FCT --I-7-5-h-01", "children": [] },
+          { "name": "Pasos a seguir por el alumnado que participe en prácticas Erasmus --I-7-5-h-04", "children": [] },
+          { "name": "Normas uso del aula de convivencia --i-7-5-c-01", "children": [] },
+          { "name": "Normas a seguir en la movilidad de estudiantes para proyectos Erasmus --I-7-5-h-06", "children": [] }
+        ]
+      },
+
+      {
+        "name": "Formatos aplicables",
+        "children": [
+          { "name": "planning3", "children": [] },
+          { "name": "planning2", "children": [] },
+          { "name": "planning1", "children": [] },
+          { "name": "f-8-5-a-02--f-8.5-a-02", "children": [] },
+          { "name": "f-8-2-d-00-Sgmto-Prgrmacion-1--f-8.2-d-00-Sgmto-Prgrmacion-1", "children": [] },
+          { "name": "f-7-5-e-13-15 alumnos--f-7.5-e-13-15 alumnos", "children": [] },
+          { "name": "f-7-5-e-12-20 alumnos--f-7.5-e-12-20 alumnos", "children": [] },
+          { "name": "f-7-5-e-11-30 alumnos--f-7.5-e-11-30 alumnos", "children": [] },
+          { "name": "consejo_tmv301_Ciclo_Automocion", "children": [] },
+          { "name": "consejo_tmv202_Ciclo_Electromecanica_Vehiculos_Automoviles", "children": [] },
+          { "name": "consejo_san304_Ciclo_Higiene_Buco_dental", "children": [] },
+          { "name": "consejo_ifc303_Ciclo_Desarrollo_Aplicaciones_Web", "children": [] },
+          { "name": "consejo_ifc201_Ciclo_Sistemas_Microinformaticos_Redes", "children": [] },
+          { "name": "consejo_fpb06_Ciclo_FP_Basica_Automocion", "children": [] }
+        ]
+      }
+    ]
+  }
+]
