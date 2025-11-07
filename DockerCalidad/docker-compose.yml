@@ -5,7 +5,7 @@ services:
     build: .
     container_name: docs-calidad
     ports:
-      - "3001:3001"
+      - "0777:3001"
     volumes:
       - ./estructura.json:/app/estructura.json
     restart: unless-stopped
