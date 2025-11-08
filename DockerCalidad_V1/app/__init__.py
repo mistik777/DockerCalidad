@@ -1,5 +1,5 @@
 # =====================================================
-# app/__init__.py — Inicialización y rutas de DockerCalidad V.1.0.2
+# app/__init__.py — Inicialización y rutas con carpeta "estructuras"
 # =====================================================
 
 from flask import Flask, jsonify, request, send_from_directory, render_template
@@ -11,8 +11,12 @@ import os, json, glob
 def create_app():
     app = Flask(__name__, static_folder="../static", template_folder="../templates")
 
+    # Directorio donde se guardan las estructuras
+    STRUCTURE_DIR = os.path.join(os.getcwd(), "estructuras")
+    os.makedirs(STRUCTURE_DIR, exist_ok=True)
+
     # -----------------------------------------------------
-    # Rutas principales
+    # Página principal
     # -----------------------------------------------------
     @app.route("/")
     def index():
@@ -24,7 +28,8 @@ def create_app():
     @app.route("/list")
     def list_structures():
         try:
-            files = [os.path.basename(f) for f in glob.glob("estructura*.json")]
+            pattern = os.path.join(STRUCTURE_DIR, "*.json")
+            files = [os.path.basename(f) for f in glob.glob(pattern)]
             return jsonify(files)
         except Exception as e:
             return jsonify({"error": str(e)}), 500
@@ -34,10 +39,11 @@ def create_app():
     # -----------------------------------------------------
     @app.route("/tree", methods=["GET"])
     def get_default_tree():
-        if not os.path.exists("estructura.json"):
+        path = os.path.join(STRUCTURE_DIR, "estructura.json")
+        if not os.path.exists(path):
             return jsonify([])
         try:
-            with open("estructura.json", "r", encoding="utf-8") as f:
+            with open(path, "r", encoding="utf-8") as f:
                 data = json.load(f)
             return jsonify(data)
         except Exception as e:
@@ -46,8 +52,9 @@ def create_app():
     @app.route("/tree", methods=["POST"])
     def save_default_tree():
         data = request.json
+        path = os.path.join(STRUCTURE_DIR, "estructura.json")
         try:
-            with open("estructura.json", "w", encoding="utf-8") as f:
+            with open(path, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
             return jsonify({"ok": True})
         except Exception as e:
@@ -58,10 +65,11 @@ def create_app():
     # -----------------------------------------------------
     @app.route("/tree/<name>", methods=["GET"])
     def get_tree(name):
-        if not os.path.exists(name):
+        path = os.path.join(STRUCTURE_DIR, name)
+        if not os.path.exists(path):
             return jsonify([])
         try:
-            with open(name, "r", encoding="utf-8") as f:
+            with open(path, "r", encoding="utf-8") as f:
                 data = json.load(f)
             return jsonify(data)
         except Exception as e:
@@ -70,8 +78,9 @@ def create_app():
     @app.route("/tree/<name>", methods=["POST"])
     def save_tree(name):
         data = request.json
+        path = os.path.join(STRUCTURE_DIR, name)
         try:
-            with open(name, "w", encoding="utf-8") as f:
+            with open(path, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
             return jsonify({"ok": True})
         except Exception as e:
@@ -79,15 +88,16 @@ def create_app():
 
     @app.route("/tree/<name>", methods=["DELETE"])
     def delete_tree(name):
+        path = os.path.join(STRUCTURE_DIR, name)
         try:
-            if os.path.exists(name):
-                os.remove(name)
+            if os.path.exists(path):
+                os.remove(path)
             return jsonify({"deleted": True})
         except Exception as e:
             return jsonify({"error": str(e)}), 500
 
     # -----------------------------------------------------
-    # Archivos estáticos (opcional para compatibilidad)
+    # Servir archivos estáticos
     # -----------------------------------------------------
     @app.route("/static/<path:path>")
     def send_static(path):
