@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documentos de Calidad</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+
+  <h2>Árbol de Documentación de Calidad</h2>
+
+  <!-- 🔹 Barra de estructuras -->
+<div class="bar">
+  <label for="structure-select">Estructura:</label>
+  <select id="structure-select"></select>
+  <button id="btn-new" title="Nueva">➕ Nueva</button>
+  <button id="btn-import" title="Importar">📂 Importar</button>
+  <button id="btn-export" title="Exportar">💾 Exportar</button>
+  <button id="btn-delete" title="Eliminar">🗑 Eliminar</button>
+</div>
+
+
+  <!-- 🔹 Barra de herramientas existente -->
+  <div class="toolbar">
+    <button id="add-root">+ Carpeta raíz</button>
+    <button id="undo">↶ Deshacer</button>
+    <button id="redo">↷ Rehacer</button>
+    <button id="collapse-all">Colapsar todo</button>
+    <button id="expand-all">Expandir todo</button>
+    <button id="exp-linux">Crear carpetas Linux</button>
+    <button id="exp-win">Crear carpetas Windows</button>
+    <input id="filter" placeholder="Filtrar..." />
+  </div>
+
+  <div id="msg"></div>
+  <div id="tree"></div>
+
+  <!-- Modal de confirmación -->
+  <div id="modal-bg" class="modal-bg" style="display:none">
+    <div class="modal">
+      <div id="modal-text" class="modal-text"></div>
+      <div class="modal-actions">
+        <button id="modal-cancel" class="btn">Cancelar</button>
+        <button id="modal-ok" class="btn btn-primary">Eliminar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script principal -->
+  <script type="module" defer src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

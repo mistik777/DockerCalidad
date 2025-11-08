@@ -1,0 +1,18 @@
+# =====================================================
+# docker-compose.yml — Configuración de DockerCalidad V.1
+# =====================================================
+
+version: "3.9"
+
+services:
+  calidocs:
+    container_name: calidocs
+    build: .
+    restart: unless-stopped
+    ports:
+      - "777:3001"   # Puerto externo 777 (como usabas en README)
+    volumes:
+      - .:/app       # Monta el código local dentro del contenedor
+    environment:
+      - TZ=Europe/Madrid
+    # image: mistik777/dockercalidad:v1   # (opcional: para publicación futura)
