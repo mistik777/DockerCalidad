@@ -1,0 +1,48 @@
+[
+  {
+    "id": "ee7dfoeph6dmhq4v21a",
+    "name": "Nueva carpeta",
+    "children": [
+      {
+        "id": "ph2awlsc1amhq4v2x5",
+        "name": "Nueva carpeta",
+        "children": [
+          {
+            "id": "3eozi5g3ualmhq4v4if",
+            "name": "Nueva carpeta",
+            "children": [
+              {
+                "id": "gvc3xjofd6mhq4v5b8",
+                "name": "Nueva carpeta",
+                "children": [],
+                "reviewed": false
+              }
+            ],
+            "reviewed": false
+          }
+        ],
+        "reviewed": false
+      }
+    ],
+    "reviewed": false
+  },
+  {
+    "id": "wmyuzo0ig7bmhq4v6dk",
+    "name": "Nueva carpeta",
+    "children": [
+      {
+        "id": "wu1lbj2zvomhq4v7cs",
+        "name": "Nueva carpeta",
+        "children": [],
+        "reviewed": false
+      },
+      {
+        "id": "ajy0fmq4r2qmhq4v95a",
+        "name": "Nueva carpeta",
+        "children": [],
+        "reviewed": false
+      }
+    ],
+    "reviewed": false
+  }
+]
