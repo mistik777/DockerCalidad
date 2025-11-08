@@ -20,8 +20,10 @@ Toda la información se guarda automáticamente en `estructura.json`.
 
 ## 🐳 Ejecución con Docker
 
-1. Clonar el proyecto:
+cd ~
+<br>
+git clone https://github.com/mistik777/DockerCalidad<br>
+cd DockerCalidad_V1<br>
+docker compose up -d<br>
 
-   ```bash
-   git clone https://github.com/mistik777/DockerCalidad_V1.git
-   cd DockerCalidad_V1
+Funciona en puerto:0777
