@@ -1,0 +1,221 @@
+[
+  {
+    "id": "d2ee8bd023974e84bce8",
+    "name": "Calidad",
+    "children": [
+      {
+        "id": "c48218074e414f32a5f8",
+        "name": "Acogida",
+        "children": [],
+        "reviewed": false,
+        "collapsed": false
+      },
+      {
+        "id": "d379f33171be45228ed9",
+        "name": "Curso AENOR",
+        "children": [],
+        "reviewed": false,
+        "collapsed": false
+      },
+      {
+        "id": "dac4a763d0ab4bc8acec",
+        "name": "Ejemplos",
+        "children": [
+          {
+            "id": "33b01e6f38fc475fb20f",
+            "name": "IES Virgen del Pilar",
+            "children": [],
+            "reviewed": false,
+            "collapsed": false
+          },
+          {
+            "id": "3537bb1c4e8e4e6dbb99",
+            "name": "IES Ítaca",
+            "children": [],
+            "reviewed": false,
+            "collapsed": false
+          },
+          {
+            "id": "e05fab37ad844159b6c6",
+            "name": "Servicio FP",
+            "children": [],
+            "reviewed": false,
+            "collapsed": false
+          }
+        ],
+        "reviewed": false,
+        "collapsed": false
+      },
+      {
+        "id": "6f1610f2051b48a6a58f",
+        "name": "EstructuraCarpetas",
+        "children": [
+          {
+            "id": "027c32a5418e4089b029",
+            "name": "Procesos",
+            "children": [
+              {
+                "id": "28b8d098ca0c486ba322",
+                "name": "1 Procesos Estratégicos",
+                "children": [
+                  {
+                    "id": "5f4016c2afab47f4b1a0",
+                    "name": "01 Planificación estratégica",
+                    "children": [
+                      {
+                        "id": "e8cd92d45bd44537b445",
+                        "name": "01 Análisis de contexto",
+                        "children": [
+                          {
+                            "id": "4343ae098e974c759486",
+                            "name": "Formatos",
+                            "children": [],
+                            "reviewed": false,
+                            "collapsed": false
+                          },
+                          {
+                            "id": "5174be253f1f41ec801b",
+                            "name": "Instrucciones",
+                            "children": [],
+                            "reviewed": false,
+                            "collapsed": false
+                          },
+                          {
+                            "id": "3c5406d9819e4254b9aa",
+                            "name": "Procedimiento",
+                            "children": [],
+                            "reviewed": false,
+                            "collapsed": false
+                          },
+                          {
+                            "id": "70242aa29fb44c9abbf2",
+                            "name": "Registros",
+                            "children": [],
+                            "reviewed": false,
+                            "collapsed": false
+                          }
+                        ],
+                        "reviewed": false,
+                        "collapsed": false
+                      },
+                      {
+                        "id": "3521b0874c554604869b",
+                        "name": "02 Planes de acción",
+                        "children": [],
+                        "reviewed": false,
+                        "collapsed": false
+                      },
+                      {
+                        "id": "ae4478fa551346198806",
+                        "name": "Políticas",
+                        "children": [],
+                        "reviewed": false,
+                        "collapsed": false
+                      }
+                    ],
+                    "reviewed": false,
+                    "collapsed": false
+                  },
+                  {
+                    "id": "b5a0744c2e1841ef8383",
+                    "name": "02 Recursos humanos",
+                    "children": [],
+                    "reviewed": false,
+                    "collapsed": false
+                  },
+                  {
+                    "id": "05bba5c770b44f16b7f0",
+                    "name": "03 Organización escolar",
+                    "children": [],
+                    "reviewed": false,
+                    "collapsed": false
+                  },
+                  {
+                    "id": "cc506495b1fc4521b9c3",
+                    "name": "04 Gestión de la calidad",
+                    "children": [],
+                    "reviewed": false,
+                    "collapsed": false
+                  }
+                ],
+                "reviewed": false,
+                "collapsed": false
+              },
+              {
+                "id": "f25ceaf34d2a4db39f17",
+                "name": "2 Procesos Operativos",
+                "children": [],
+                "reviewed": false,
+                "collapsed": false
+              },
+              {
+                "id": "c808a9a48cdb44e3bf27",
+                "name": "3 Procesos de Apoyo",
+                "children": [],
+                "reviewed": false,
+                "collapsed": false
+              },
+              {
+                "id": "4b50472823f9436daaad",
+                "name": "Mapa de procesos",
+                "children": [],
+                "reviewed": false,
+                "collapsed": false
+              }
+            ],
+            "reviewed": false,
+            "collapsed": false
+          }
+        ],
+        "reviewed": false,
+        "collapsed": false
+      },
+      {
+        "id": "3b9c220f37a24efebd6f",
+        "name": "Plan de acción (modelos)",
+        "children": [
+          {
+            "id": "173c2ae494da4352909b",
+            "name": "Ejemplos",
+            "children": [],
+            "reviewed": false,
+            "collapsed": false
+          },
+          {
+            "id": "f76d70e6b6c645cda8a1",
+            "name": "Formatos",
+            "children": [],
+            "reviewed": false,
+            "collapsed": false
+          }
+        ],
+        "reviewed": false,
+        "collapsed": false
+      },
+      {
+        "id": "2ab6ac853eda46dd8654",
+        "name": "Planificacion SGC y auditorias",
+        "children": [
+          {
+            "id": "1608f8ab541a4aeeba1e",
+            "name": "Cuestionarios auditoría interna",
+            "children": [],
+            "reviewed": false,
+            "collapsed": false
+          },
+          {
+            "id": "c4c20a2ddebc48c2b274",
+            "name": "Informes de auditoría",
+            "children": [],
+            "reviewed": false,
+            "collapsed": false
+          }
+        ],
+        "reviewed": false,
+        "collapsed": false
+      }
+    ],
+    "reviewed": false,
+    "collapsed": false
+  }
+]
